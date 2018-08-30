@@ -6,4 +6,14 @@
 ul {
   list-style: none; }
 
+.l-body {
+  background: #070707;
+  position: relative; }
+  .l-body__header {
+    z-index: 9999; }
+  .l-body__main {
+    z-index: 9990; }
+  .l-body__footer {
+    z-index: 9980; }
+
 /*# sourceMappingURL=main.css.map */
