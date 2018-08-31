@@ -1,0 +1,19 @@
+.c-portfolio-list {
+  display: flex;
+
+  &__item {
+    font-size: 1.8rem;
+    color: $list-color;
+    text-transform: uppercase;
+    font-family: GothamPro-Medium, sans-serif;
+    padding: 0 1.4rem 0.7rem;
+    border-bottom: 3px solid $dark-grey-theme;
+
+    &:first-child {
+      padding: 0 2.7rem 0 1.5rem;
+    }
+    &:last-child {
+      padding: 0 0 0 1.6rem;
+    }
+  }
+}
