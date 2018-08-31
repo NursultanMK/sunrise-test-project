@@ -69,18 +69,18 @@ ul {
     .c-navigation__item:last-child {
       padding: 0.2rem 0 0.2rem 1rem; }
 
-.c-portfolio-list {
+.c-portfolio-navigation {
   display: flex; }
-  .c-portfolio-list__item {
+  .c-portfolio-navigation__item {
     font-size: 1.8rem;
     color: #e5e5e5;
     text-transform: uppercase;
     font-family: GothamPro-Medium, sans-serif;
     padding: 0 1.4rem 0.7rem;
     border-bottom: 3px solid #505050; }
-    .c-portfolio-list__item:first-child {
+    .c-portfolio-navigation__item:first-child {
       padding: 0 2.7rem 0 1.5rem; }
-    .c-portfolio-list__item:last-child {
+    .c-portfolio-navigation__item:last-child {
       padding: 0 0 0 1.6rem; }
 
 .l-body {
