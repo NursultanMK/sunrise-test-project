@@ -1,0 +1,13 @@
+.c-navigation {
+  display: flex;
+
+  &__item {
+    color: $list-color;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 0.2rem 1rem;
+    &:last-child {
+      padding: 0.2rem 0 0.2rem 1rem;
+    }
+  }
+}

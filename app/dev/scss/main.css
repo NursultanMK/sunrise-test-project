@@ -7,7 +7,8 @@ html {
   box-sizing: border-box; }
 
 body {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  font-family: sans-serif; }
 
 ul {
   list-style: none;
@@ -43,6 +44,21 @@ ul {
 @font-face {
   font-family: GothamProNarrow-Medium;
   src: url(../fonts/GothamProNarrow-Medium.ttf); }
+.c-logo {
+  width: 13.8rem; }
+  .c-logo__svg {
+    width: 100%; }
+
+.c-navigation {
+  display: flex; }
+  .c-navigation__item {
+    color: #e5e5e5;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 0.2rem 1rem; }
+    .c-navigation__item:last-child {
+      padding: 0.2rem 0 0.2rem 1rem; }
+
 .l-body {
   background: #070707;
   position: relative; }
@@ -52,5 +68,13 @@ ul {
     z-index: 9990; }
   .l-body__footer {
     z-index: 9980; }
+
+.l-header {
+  border: 1px solid red;
+  padding: 2.9rem 13.5rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
