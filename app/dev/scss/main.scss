@@ -11,6 +11,7 @@
 
 @import
   "components/c-hero",
+  "components/c-info-text",
   "components/c-logo",
   "components/c-navigation",
   "components/c-portfolio-list",
@@ -23,5 +24,6 @@
   "layouts/l-footer";
 
 @import
+  "pages/p-blog",
   "pages/p-index",
   "pages/p-portfolio";

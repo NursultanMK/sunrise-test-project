@@ -54,6 +54,12 @@ ul {
   line-height: normal;
   font-size: 35px; }
 
+.c-info-text {
+  font-size: 1.8rem;
+  font-family: GothamPro-Medium, sans-serif;
+  color: #e2aa1a;
+  text-transform: uppercase; }
+
 .c-logo {
   width: 13.8rem; }
   .c-logo__svg {
@@ -114,6 +120,13 @@ ul {
   justify-content: space-between;
   position: absolute;
   width: 100%; }
+
+.p-blog {
+  padding-top: 15.4rem; }
+  .p-blog__inner {
+    padding: 0 13.5rem; }
+  .p-blog__heading {
+    margin-bottom: 2.5rem; }
 
 .p-portfolio {
   padding-top: 15.4rem; }
