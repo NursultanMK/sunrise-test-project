@@ -69,8 +69,23 @@ ul {
     .c-navigation__item:last-child {
       padding: 0.2rem 0 0.2rem 1rem; }
 
+.c-portfolio-list {
+  display: flex;
+  justify-content: space-between; }
+  .c-portfolio-list__column {
+    width: 37rem; }
+  .c-portfolio-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .c-portfolio-list__item:not(:last-child) {
+      margin-bottom: 2.9rem; }
+  .c-portfolio-list__img {
+    width: 100%; }
+
 .c-portfolio-navigation {
-  display: flex; }
+  display: flex;
+  margin-bottom: 2.8rem; }
   .c-portfolio-navigation__item {
     font-size: 1.8rem;
     color: #e5e5e5;
