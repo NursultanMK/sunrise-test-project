@@ -128,6 +128,11 @@ ul {
   .c-logo__svg {
     width: 100%; }
 
+.c-map__figure {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .c-navigation {
   display: flex; }
   .c-navigation__item {
