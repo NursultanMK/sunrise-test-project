@@ -1,5 +1,6 @@
 $white-theme: rgb(255, 255, 255) !default;
 $with-opacity-theme: rgba(255, 255, 255, 0.7) !default;
+$dark-opacity-theme: rgba(0, 0, 0, 0.86) !default;
 $dark-orange-theme: rgb(226, 170, 26) !default;
 $dark-theme: rgb(7, 7, 7) !default;
 $light-grey-theme: rgb(229, 229, 229) !default;
@@ -17,3 +18,9 @@ $paragraph-color: $white-theme;
 
 // Layout
 $l-body-background: $dark-theme;
+
+// Blog list description
+$blog-list-description-blog: $dark-opacity-theme;
+
+// Borders
+$borders: $white-theme;
