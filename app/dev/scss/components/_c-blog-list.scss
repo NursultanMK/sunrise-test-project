@@ -1,0 +1,16 @@
+.c-blog-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -3rem;
+
+  &__item {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  &__img {
+    width: 100%;
+  }
+}

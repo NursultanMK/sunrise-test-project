@@ -65,11 +65,25 @@ ul {
   line-height: normal;
   font-size: 35px; }
 
+.c-blog-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -3rem; }
+  .c-blog-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem; }
+  .c-blog-list__img {
+    width: 100%; }
+
 .c-subheading {
   font-size: 1.8rem;
   font-family: GothamPro-Medium, sans-serif;
   color: #e2aa1a;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 4.9rem; }
 
 .c-logo {
   width: 13.8rem; }
