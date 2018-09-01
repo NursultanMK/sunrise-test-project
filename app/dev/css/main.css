@@ -65,6 +65,15 @@ ul {
   line-height: normal;
   font-size: 35px; }
 
+.t-subheading {
+  color: white;
+  font-family: GothamPro-Medium, sans-serif;
+  font-size: 2.4rem;
+  font-weight: normal;
+  text-transform: uppercase; }
+  .t-subheading--centered {
+    text-align: center; }
+
 .c-blog-list {
   display: flex;
   justify-content: space-between;
@@ -110,6 +119,13 @@ ul {
     padding: 1.1rem;
     text-align: center;
     text-transform: uppercase; }
+
+.c-contacts-subheading {
+  font-size: 2.4rem;
+  font-family: GothamPro-Medium, sans-serif;
+  color: #e2aa1a;
+  text-transform: uppercase;
+  margin-bottom: 4.6rem; }
 
 .c-subheading {
   font-size: 1.8rem;
@@ -186,6 +202,14 @@ ul {
     padding: 0 13.5rem; }
   .p-blog__heading {
     margin-bottom: 2.5rem; }
+
+.p-contacts {
+  padding-top: 15.4rem;
+  padding-bottom: 11.6rem; }
+  .p-contacts__inner {
+    padding: 0 13.5rem; }
+  .p-contacts__heading {
+    margin-bottom: 2.1rem; }
 
 .p-portfolio {
   padding-top: 15.4rem; }
