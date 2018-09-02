@@ -100,6 +100,11 @@ textarea {
   font-weight: 100;
   text-transform: uppercase; }
 
+.t-hero-heading {
+  color: white;
+  font-size: 7.2rem;
+  font-family: GothamPro-Bold, sans-serif; }
+
 .c-address-forms {
   padding: 0 8.7rem;
   display: flex;
@@ -222,6 +227,26 @@ textarea {
   text-transform: uppercase;
   margin-bottom: 4.6rem; }
 
+.c-copyright {
+  color: #e5e5e5;
+  font-family: GothamPro, sans-serif;
+  font-size: 1.8rem;
+  padding: 0 3.4rem; }
+  .c-copyright__text {
+    padding: 0 1rem; }
+
+.c-hero {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative; }
+  .c-hero__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9.5rem 70rem 0 13rem;
+    text-transform: uppercase; }
+
 .c-subheading {
   font-size: 1.8rem;
   font-family: GothamPro-Medium, sans-serif;
@@ -242,6 +267,36 @@ textarea {
     align-items: center; }
     .c-map__figure img {
       width: 100%; }
+
+.c-nav {
+  background: #070707;
+  position: absolute;
+  width: 35rem;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  padding-top: 6.3rem;
+  padding-left: 3.6rem;
+  padding-right: 3.6rem; }
+  .c-nav__logotype {
+    margin-bottom: 16.3rem;
+    padding: 0.2rem; }
+  .c-nav__list {
+    padding: 0.1rem 0.4rem;
+    margin-bottom: 44.8rem; }
+  .c-nav__item {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #e5e5e5; }
+    .c-nav__item:not(:last-child) {
+      margin-bottom: 3.6rem; }
+  .c-nav__social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem; }
+  .c-nav__social-icons {
+    padding: 0 0.5rem; }
 
 .c-photo-results {
   padding: 0 10rem;
@@ -369,6 +424,10 @@ textarea {
     padding: 0 13.5rem; }
   .p-how-to__heading {
     margin-bottom: 4rem; }
+
+.p-index {
+  position: relative;
+  overflow: hidden; }
 
 .p-portfolio {
   padding-top: 15.4rem; }

@@ -1,0 +1,41 @@
+.c-nav {
+  //transform: translateX(-77%);
+  background: $nav-background;
+  position: absolute;
+  width: 35rem;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  padding-top: 6.3rem;
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+
+  &__logotype {
+    margin-bottom: 16.3rem;
+    padding: 0.2rem;
+  }
+  &__list {
+    padding: 0.1rem 0.4rem;
+    margin-bottom: 44.8rem;
+  }
+  &__item {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: $list-color;
+
+    &:not(:last-child) {
+      margin-bottom: 3.6rem;
+    }
+  }
+
+  &__social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  &__social-icons {
+    padding: 0 0.5rem;
+  }
+}

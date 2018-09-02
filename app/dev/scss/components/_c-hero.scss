@@ -1,0 +1,14 @@
+.c-hero {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+
+  &__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9.5rem 70rem 0 13rem;
+    text-transform: uppercase;
+  }
+}
