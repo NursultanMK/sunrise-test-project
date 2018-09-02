@@ -260,6 +260,14 @@ textarea {
   .c-portfolio-list__img {
     width: 100%; }
 
+.c-post-hero {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .c-post-hero__img {
+    width: 100%; }
+
 .c-portfolio-navigation {
   display: flex;
   margin-bottom: 2.8rem; }
@@ -307,6 +315,13 @@ textarea {
     padding: 0 13.5rem; }
   .p-contacts__heading {
     margin-bottom: 2.1rem; }
+
+.p-how-to {
+  padding-top: 15.4rem; }
+  .p-how-to__inner {
+    padding: 0 13.5rem; }
+  .p-how-to__heading {
+    margin-bottom: 4rem; }
 
 .p-portfolio {
   padding-top: 15.4rem; }
