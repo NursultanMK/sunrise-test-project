@@ -14,3 +14,28 @@ ul {
   list-style: none;
   font-family: GothamPro-Medium, sans-serif;
 }
+
+input {
+  background: none;
+  border: none;
+  display: block;
+  font-family: GothamPro-Medium, sans-serif;
+
+  &:focus {
+    outline: none;
+  }
+}
+::placeholder {
+  color: white;
+}
+
+textarea {
+  background: none;
+  border: none;
+  display: block;
+  font-family: GothamPro-Medium, sans-serif;
+
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,78 @@
+.c-address-forms{
+  padding: 0 8.7rem;
+  display: flex;
+  justify-content: space-around;
+
+  &__address {
+    width: 37rem;
+  }
+
+  &__adress-item {
+    display: flex;
+    margin-bottom: 2.7rem;
+  }
+  &__icon {
+  }
+  &__info {
+    padding: 0 0 0 2rem;
+  }
+  &__title {
+    color: orange;
+    font-family: GothamPro-Medium, sans-serif;
+    font-size: 1.4rem;
+  }
+  &__position {
+    font-size: 1.4rem;
+    font-family: GothamPro, sans-serif;
+    color: $paragraph-color;
+    padding: 1rem 0;
+  }
+
+  &__forms {
+    width: 57rem;
+  }
+
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__name {
+    border: 1px solid $input-border;
+    color: $paragraph-color;
+    width: 27.7rem;
+    padding: 1.2rem;
+  }
+  &__email {
+    border: 1px solid $input-border;
+    color: $paragraph-color;
+    width: 27.7rem;
+    padding: 1.2rem;
+  }
+  &__theme {
+    border: 1px solid $input-border;
+    width: 100%;
+    padding: 1.2rem;
+    color: $paragraph-color;
+    margin-top: 2rem;
+  }
+
+  &__message {
+    margin-top: 2rem;
+    border: 1px solid $input-border;
+    color: $paragraph-color;
+    padding: 1.2rem 1.2rem 6.2rem 1.2rem;
+    width: 100%;
+  }
+
+  &__submit {
+    border: 1px solid $input-border;
+    margin-top: 1.6rem;
+    background: orange;
+    padding: 1.3rem 4.2rem;
+    text-align: center;
+    font-family: GothamPro-Medium, sans-serif;
+    color: $paragraph-color;
+  }
+}

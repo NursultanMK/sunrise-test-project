@@ -14,6 +14,25 @@ ul {
   list-style: none;
   font-family: GothamPro-Medium, sans-serif; }
 
+input {
+  background: none;
+  border: none;
+  display: block;
+  font-family: GothamPro-Medium, sans-serif; }
+  input:focus {
+    outline: none; }
+
+::placeholder {
+  color: white; }
+
+textarea {
+  background: none;
+  border: none;
+  display: block;
+  font-family: GothamPro-Medium, sans-serif; }
+  textarea:focus {
+    outline: none; }
+
 @font-face {
   font-family: GothamPro;
   src: url(../fonts/GothamPro.ttf); }
@@ -74,6 +93,63 @@ ul {
   .t-subheading--centered {
     text-align: center; }
 
+.c-address-forms {
+  padding: 0 8.7rem;
+  display: flex;
+  justify-content: space-around; }
+  .c-address-forms__address {
+    width: 37rem; }
+  .c-address-forms__adress-item {
+    display: flex;
+    margin-bottom: 2.7rem; }
+  .c-address-forms__info {
+    padding: 0 0 0 2rem; }
+  .c-address-forms__title {
+    color: orange;
+    font-family: GothamPro-Medium, sans-serif;
+    font-size: 1.4rem; }
+  .c-address-forms__position {
+    font-size: 1.4rem;
+    font-family: GothamPro, sans-serif;
+    color: white;
+    padding: 1rem 0; }
+  .c-address-forms__forms {
+    width: 57rem; }
+  .c-address-forms__inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .c-address-forms__name {
+    border: 1px solid #e5e5e5;
+    color: white;
+    width: 27.7rem;
+    padding: 1.2rem; }
+  .c-address-forms__email {
+    border: 1px solid #e5e5e5;
+    color: white;
+    width: 27.7rem;
+    padding: 1.2rem; }
+  .c-address-forms__theme {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 1.2rem;
+    color: white;
+    margin-top: 2rem; }
+  .c-address-forms__message {
+    margin-top: 2rem;
+    border: 1px solid #e5e5e5;
+    color: white;
+    padding: 1.2rem 1.2rem 6.2rem 1.2rem;
+    width: 100%; }
+  .c-address-forms__submit {
+    border: 1px solid #e5e5e5;
+    margin-top: 1.6rem;
+    background: orange;
+    padding: 1.3rem 4.2rem;
+    text-align: center;
+    font-family: GothamPro-Medium, sans-serif;
+    color: white; }
+
 .c-blog-list {
   display: flex;
   justify-content: space-between;
@@ -120,6 +196,18 @@ ul {
     text-align: center;
     text-transform: uppercase; }
 
+.c-contacts {
+  margin-bottom: 5rem; }
+  .c-contacts__title {
+    margin-bottom: 1.7rem; }
+  .c-contacts__description {
+    font-family: GothamPro-Medium, sans-serif;
+    font-size: 1.4rem;
+    color: #e2aa1a;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 40rem; }
+
 .c-contacts-subheading {
   font-size: 2.4rem;
   font-family: GothamPro-Medium, sans-serif;
@@ -139,10 +227,14 @@ ul {
   .c-logo__svg {
     width: 100%; }
 
-.c-map__figure {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.c-map {
+  margin-bottom: 4.2rem; }
+  .c-map__figure {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .c-map__figure img {
+      width: 100%; }
 
 .c-navigation {
   display: flex; }
