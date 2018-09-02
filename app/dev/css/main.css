@@ -293,8 +293,7 @@ textarea {
   .c-posts__first-part:not(:last-child) {
     margin-bottom: 1rem; }
   .c-posts__first-title {
-    margin-bottom: 3.3rem;
-    border: 1px solid white; }
+    margin-bottom: 3.3rem; }
   .c-posts__first-paragraph {
     color: white;
     font-family: "Roboto", sans-serif;
@@ -308,7 +307,6 @@ textarea {
     font-weight: 200; }
 
 .c-post-hero {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -365,7 +363,8 @@ textarea {
     margin-bottom: 2.1rem; }
 
 .p-how-to {
-  padding-top: 15.4rem; }
+  padding-top: 15.4rem;
+  padding-bottom: 11.3rem; }
   .p-how-to__inner {
     padding: 0 13.5rem; }
   .p-how-to__heading {
