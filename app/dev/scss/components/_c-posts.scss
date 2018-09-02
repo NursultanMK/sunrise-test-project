@@ -1,0 +1,30 @@
+.c-posts {
+  padding: 0 10rem;
+
+  &__first-part {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+  &__first-title {
+    margin-bottom: 3.3rem;
+    border: 1px solid white;
+  }
+
+  &__paragraphs {
+  }
+  &__first-paragraph {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+  }
+
+  &__second-paragraph {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+}
