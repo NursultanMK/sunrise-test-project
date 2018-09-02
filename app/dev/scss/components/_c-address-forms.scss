@@ -17,7 +17,7 @@
     padding: 0 0 0 2rem;
   }
   &__title {
-    color: orange;
+    color: $subheading-color;
     font-family: GothamPro-Medium, sans-serif;
     font-size: 1.4rem;
   }
@@ -69,7 +69,7 @@
   &__submit {
     border: 1px solid $input-border;
     margin-top: 1.6rem;
-    background: orange;
+    background: $orange-background;
     padding: 1.3rem 4.2rem;
     text-align: center;
     font-family: GothamPro-Medium, sans-serif;

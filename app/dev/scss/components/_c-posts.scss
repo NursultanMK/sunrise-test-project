@@ -1,6 +1,6 @@
 .c-posts {
   padding: 0 10rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 
   &__first-part {
     &:not(:last-child) {
@@ -14,7 +14,7 @@
   &__paragraphs {
   }
   &__first-paragraph {
-    color: white;
+    color: $paragraph-color;
     font-family: "Roboto", sans-serif;
     font-size: 1.8rem;
     font-weight: 200;
@@ -22,7 +22,7 @@
   }
 
   &__second-paragraph {
-    color: white;
+    color: $paragraph-color;
     font-family: "Roboto", sans-serif;
     font-size: 1.8rem;
     font-weight: 200;

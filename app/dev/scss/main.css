@@ -101,7 +101,7 @@ textarea {
   .c-address-forms__info {
     padding: 0 0 0 2rem; }
   .c-address-forms__title {
-    color: orange;
+    color: #e2aa1a;
     font-family: GothamPro-Medium, sans-serif;
     font-size: 1.4rem; }
   .c-address-forms__position {
@@ -140,7 +140,7 @@ textarea {
   .c-address-forms__submit {
     border: 1px solid #e5e5e5;
     margin-top: 1.6rem;
-    background: orange;
+    background: #e2aa1a;
     padding: 1.3rem 4.2rem;
     text-align: center;
     font-family: GothamPro-Medium, sans-serif;
@@ -245,7 +245,7 @@ textarea {
   .c-photo-results__img {
     width: 100%; }
   .c-photo-results__name {
-    color: orange;
+    color: #e2aa1a;
     font-family: GothamPro-Medium, sans-serif;
     font-size: 2.4rem;
     text-transform: uppercase;
@@ -278,7 +278,7 @@ textarea {
 
 .c-posts {
   padding: 0 10rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2.4rem; }
   .c-posts__first-part:not(:last-child) {
     margin-bottom: 1rem; }
   .c-posts__first-title {
