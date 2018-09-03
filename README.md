@@ -6,7 +6,7 @@
   <li><tt>gulp</tt></li>
   <li><tt>gulp-autoprefixer</tt></li>
 </ul>
-
+After pulling this project, there is necessary to install development dependencies by command <tt>npm install</tt>
 HTML files are in this directory <tt>sunrise-test/app/dev</tt>
 There is 3 commands for development this project:
 <ul>
