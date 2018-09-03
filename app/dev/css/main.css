@@ -117,6 +117,12 @@ a {
   color: white;
   font-size: 7.2rem;
   font-family: GothamPro-Bold, sans-serif; }
+  @media (max-width: 1000px) {
+    .t-hero-heading {
+      font-size: 6.2rem; } }
+  @media (max-width: 800px) {
+    .t-hero-heading {
+      font-size: 4.2rem; } }
 
 .t-love-story-title {
   font-family: GothamPro-Medium, sans-serif;

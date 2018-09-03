@@ -34,6 +34,12 @@
   color: white;
   font-size: 7.2rem;
   font-family: GothamPro-Bold, sans-serif;
+  @media (max-width: 1000px) {
+    font-size: 6.2rem;
+  }
+  @media (max-width: 800px) {
+    font-size: 4.2rem;
+  }
 }
 
 .t-love-story-title {
