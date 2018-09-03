@@ -1,14 +1,15 @@
 .c-posts {
-  padding: 0 10rem;
-  margin-bottom: 4.4rem;
+  padding-left: 100 / 1170 * 100%;
+  padding-right: 100 / 1170 * 100%;
+  margin-bottom: 44 / 1170 * 100%;
 
   &__first-part {
     &:not(:last-child) {
-      margin-bottom: 4.1rem;
+      margin-bottom: 41 / 970 * 100%;
     }
   }
   &__first-title {
-    margin-bottom: 3.3rem;
+    margin-bottom: 33 / 970 * 100%;
   }
 
   &__paragraphs {

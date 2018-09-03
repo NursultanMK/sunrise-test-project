@@ -109,24 +109,45 @@ textarea {
   padding: 0 8.7rem;
   display: flex;
   justify-content: space-around; }
+  @media (max-width: 1000px) {
+    .c-address-forms {
+      flex-direction: column; } }
   .c-address-forms__address {
-    width: 37rem; }
+    width: 38.14433%; }
+    @media (max-width: 1000px) {
+      .c-address-forms__address {
+        width: 100%; } }
   .c-address-forms__adress-item {
     display: flex;
     margin-bottom: 2.7rem; }
+    @media (max-width: 1000px) {
+      .c-address-forms__adress-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; } }
+  @media (max-width: 1000px) {
+    .c-address-forms__icon {
+      padding: 0 0 0 2rem; } }
   .c-address-forms__info {
     padding: 0 0 0 2rem; }
   .c-address-forms__title {
     color: #e2aa1a;
     font-family: GothamPro-Medium, sans-serif;
     font-size: 1.4rem; }
+    @media (max-width: 1000px) {
+      .c-address-forms__title {
+        text-align: center; } }
   .c-address-forms__position {
     font-size: 1.4rem;
     font-family: GothamPro, sans-serif;
     color: white;
     padding: 1rem 0; }
   .c-address-forms__forms {
-    width: 57rem; }
+    box-sizing: content-box;
+    width: 57.28643%; }
+    @media (max-width: 1000px) {
+      .c-address-forms__forms {
+        width: 100%; } }
   .c-address-forms__inputs {
     display: flex;
     justify-content: space-between;
@@ -134,12 +155,12 @@ textarea {
   .c-address-forms__name {
     border: 1px solid #e5e5e5;
     color: white;
-    width: 27.7rem;
+    width: 48.59649%;
     padding: 1.2rem; }
   .c-address-forms__email {
     border: 1px solid #e5e5e5;
     color: white;
-    width: 27.7rem;
+    width: 48.59649%;
     padding: 1.2rem; }
   .c-address-forms__theme {
     border: 1px solid #e5e5e5;
@@ -161,6 +182,9 @@ textarea {
     text-align: center;
     font-family: GothamPro-Medium, sans-serif;
     color: white; }
+    @media (max-width: 1000px) {
+      .c-address-forms__submit {
+        margin: 1.6rem auto; } }
 
 .c-blog-list {
   display: flex;
@@ -171,18 +195,40 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
-    position: relative; }
+    position: relative;
+    margin-bottom: 2.5641%; }
+    .c-blog-list__item:nth-child(1) {
+      width: 31.62393%; }
+    .c-blog-list__item:nth-child(2) {
+      width: 65.81197%; }
+    .c-blog-list__item:nth-child(3) {
+      width: 48.71795%; }
+    .c-blog-list__item:nth-child(4) {
+      width: 48.71795%; }
   .c-blog-list__img {
     width: 100%; }
-  .c-blog-list__info {
+  .c-blog-list__info-first {
     background: rgba(0, 0, 0, 0.86);
     position: absolute;
-    top: 2rem;
-    bottom: 2rem;
-    left: 2rem;
-    right: 2rem;
-    padding: 2rem; }
+    top: 6.06061%;
+    bottom: 6.06061%;
+    left: 6.06061%;
+    right: 6.06061%;
+    padding-top: 6.06061%;
+    padding-right: 0.30303%;
+    padding-bottom: 0;
+    padding-left: 6.06061%; }
+  .c-blog-list__info-second {
+    background: rgba(0, 0, 0, 0.86);
+    position: absolute;
+    top: 6.22642%;
+    bottom: 6.22642%;
+    left: 3.77358%;
+    right: 3.77358%;
+    padding-top: 3.77358%;
+    padding-right: 0.18868%;
+    padding-bottom: 0;
+    padding-left: 3.77358%; }
   .c-blog-list__heading {
     margin-bottom: 1.5rem; }
   .c-blog-list__title {
@@ -194,31 +240,47 @@ textarea {
     font-size: 1.4rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    margin-bottom: 6.4rem;
-    width: 30rem;
+    margin-bottom: 6.5rem;
+    color: white; }
+  .c-blog-list__body-second {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 17%;
     color: white; }
   .c-blog-list__detail {
     border: 1px solid white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: white;
-    width: 15rem;
+    width: 49.72973%;
     font-size: 1.6rem;
     padding: 1.1rem;
     text-align: center;
     text-transform: uppercase; }
+  .c-blog-list__detail-second {
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30.18868%; }
 
 .c-contacts {
-  margin-bottom: 5rem; }
+  margin-bottom: 4.2735%; }
   .c-contacts__title {
-    margin-bottom: 1.7rem; }
+    margin-bottom: 1.45299%; }
   .c-contacts__description {
     font-family: GothamPro-Medium, sans-serif;
     font-size: 1.4rem;
     color: #e2aa1a;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 40rem; }
+    padding-left: 34.18803%;
+    padding-right: 34.18803%; }
 
 .c-contacts-subheading {
   font-size: 2.4rem;
@@ -260,7 +322,7 @@ textarea {
     width: 100%; }
 
 .c-map {
-  margin-bottom: 4.2rem; }
+  margin-bottom: 3.59281%; }
   .c-map__figure {
     display: flex;
     justify-content: center;
@@ -299,11 +361,12 @@ textarea {
     padding: 0 0.5rem; }
 
 .c-photo-results {
-  padding: 0 10rem;
+  padding-left: 8.54701%;
+  padding-right: 8.54701%;
   display: flex;
   justify-content: space-between; }
   .c-photo-results__photo {
-    width: 47rem;
+    width: 48.45361%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -316,7 +379,7 @@ textarea {
     font-size: 2.4rem;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 1.7rem; }
+    margin-bottom: 3.61702%; }
 
 .c-navigation {
   display: flex; }
@@ -332,23 +395,24 @@ textarea {
   display: flex;
   justify-content: space-between; }
   .c-portfolio-list__column {
-    width: 37rem; }
+    width: 31.65098%; }
   .c-portfolio-list__item {
     display: flex;
     justify-content: center;
     align-items: center; }
     .c-portfolio-list__item:not(:last-child) {
-      margin-bottom: 2.9rem; }
+      margin-bottom: 7.83784%; }
   .c-portfolio-list__img {
     width: 100%; }
 
 .c-posts {
-  padding: 0 10rem;
-  margin-bottom: 4.4rem; }
+  padding-left: 8.54701%;
+  padding-right: 8.54701%;
+  margin-bottom: 3.76068%; }
   .c-posts__first-part:not(:last-child) {
-    margin-bottom: 4.1rem; }
+    margin-bottom: 4.2268%; }
   .c-posts__first-title {
-    margin-bottom: 3.3rem; }
+    margin-bottom: 3.40206%; }
   .c-posts__first-paragraph {
     color: white;
     font-family: "Roboto", sans-serif;

@@ -1,10 +1,11 @@
 .c-photo-results {
-  padding: 0 10rem;
+  padding-left: 100 / 1170 * 100%;
+  padding-right: 100 / 1170 * 100%;
   display: flex;
   justify-content: space-between;
 
   &__photo {
-    width: 47rem;
+    width: 470 / 970 * 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +20,6 @@
     font-size: 2.4rem;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 1.7rem;
+    margin-bottom: 17 / 470 * 100%;
   }
 }

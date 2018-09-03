@@ -2,16 +2,31 @@
   padding: 0 8.7rem;
   display: flex;
   justify-content: space-around;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 
   &__address {
-    width: 37rem;
+    width: 370 / 970 * 100%;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   &__adress-item {
     display: flex;
     margin-bottom: 2.7rem;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
   &__icon {
+    @media (max-width: 1000px) {
+      padding: 0 0 0 2rem;
+
+    }
   }
   &__info {
     padding: 0 0 0 2rem;
@@ -20,6 +35,9 @@
     color: $subheading-color;
     font-family: GothamPro-Medium, sans-serif;
     font-size: 1.4rem;
+    @media (max-width: 1000px) {
+      text-align: center;
+    }
   }
   &__position {
     font-size: 1.4rem;
@@ -29,25 +47,30 @@
   }
 
   &__forms {
-    width: 57rem;
+    box-sizing: content-box;
+    width: 570 / 995 * 100%;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   &__inputs {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
   }
 
   &__name {
     border: 1px solid $input-border;
     color: $paragraph-color;
-    width: 27.7rem;
+    width: 277 / 570 * 100%;
     padding: 1.2rem;
   }
   &__email {
     border: 1px solid $input-border;
     color: $paragraph-color;
-    width: 27.7rem;
+    width: 277 / 570 * 100%;
     padding: 1.2rem;
   }
   &__theme {
@@ -74,5 +97,8 @@
     text-align: center;
     font-family: GothamPro-Medium, sans-serif;
     color: $paragraph-color;
+    @media (max-width: 1000px) {
+      margin: 1.6rem auto;
+    }
   }
 }

@@ -1,8 +1,8 @@
 .c-contacts {
-  margin-bottom: 5rem;
+  margin-bottom: 50 / 1170 * 100%;
 
   &__title {
-    margin-bottom: 1.7rem;
+    margin-bottom: 17/ 1170 * 100%;
   }
   &__description {
     font-family: GothamPro-Medium, sans-serif;
@@ -10,6 +10,7 @@
     color: $paragraph-color-orange;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 40rem;
+    padding-left: 400 / 1170 * 100%;
+    padding-right: 400 / 1170 * 100%;
   }
 }
