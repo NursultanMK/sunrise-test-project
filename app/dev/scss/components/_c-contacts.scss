@@ -12,5 +12,9 @@
     text-align: center;
     padding-left: 400 / 1170 * 100%;
     padding-right: 400 / 1170 * 100%;
+    @media (max-width: 1000px) {
+      padding-right: 0;
+      padding-left: 0;
+    }
   }
 }

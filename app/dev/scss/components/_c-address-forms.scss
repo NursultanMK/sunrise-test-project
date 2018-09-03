@@ -5,6 +5,10 @@
   @media (max-width: 1000px) {
     flex-direction: column;
   }
+  @media (max-width: 1000px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   &__address {
     width: 370 / 970 * 100%;
@@ -24,8 +28,7 @@
   }
   &__icon {
     @media (max-width: 1000px) {
-      padding: 0 0 0 2rem;
-
+      padding: 0 1rem 0 2rem;
     }
   }
   &__info {

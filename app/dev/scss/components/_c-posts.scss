@@ -3,6 +3,10 @@
   padding-right: 100 / 1170 * 100%;
   margin-bottom: 44 / 1170 * 100%;
 
+  @media (max-width: 1000px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
   &__first-part {
     &:not(:last-child) {
       margin-bottom: 41 / 970 * 100%;

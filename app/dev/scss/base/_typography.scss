@@ -3,7 +3,10 @@
   text-transform: uppercase;
   font-family: GothamPro-Black, sans-serif;
   line-height: normal;
-  font-size: 35px;
+  font-size: 3.5rem;
+  @media (max-width: 400px) {
+    font-size: 2.5rem;
+  }
 }
 .t-subheading {
   color: $heading-color;
@@ -23,6 +26,9 @@
   font-size: 3.6rem;
   font-weight: 100;
   text-transform: uppercase;
+  @media (max-width: 400px) {
+    font-size: 2.5rem;
+  }
 }
 .t-hero-heading {
   color: white;

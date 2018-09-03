@@ -4,6 +4,14 @@
 
   &__inner {
     padding: 0 13.5rem;
+    @media (max-width: 1000px) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+    @media (max-width: 400px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 
   &__heading {

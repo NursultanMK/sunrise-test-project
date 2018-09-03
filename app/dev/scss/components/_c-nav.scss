@@ -1,5 +1,5 @@
 .c-nav {
-  //transform: translateX(-77%);
+  transform: translateX(-77%);
   background: $nav-background;
   position: absolute;
   width: 35rem;
@@ -9,10 +9,28 @@
   padding-top: 6.3rem;
   padding-left: 3.6rem;
   padding-right: 3.6rem;
+  transition: 0.2s;
+  &--activated {
+    transform: translateX(0);
 
+  }
   &__logotype {
     margin-bottom: 16.3rem;
     padding: 0.2rem;
+    width: 13.8rem;
+    transition: 0.2s;
+    transform: translateX(205px) translateY(19px) rotate(-90deg);
+
+    &--activated {
+      margin-bottom: 16.3rem;
+      padding: 0.2rem;
+      width: 27.5rem;
+      transform: rotate(0);
+
+    }
+  }
+  &__svg {
+    width: 100%;
   }
   &__list {
     padding: 0.1rem 0.4rem;
