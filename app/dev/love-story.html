@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="l-body">
+<!--<header class="l-body__header l-header">-->
+<!--<section class="l-header__logotype">-->
+<!--<figure class="c-logo">-->
+<!--<img class="c-logo__svg" src="img/logotype.svg" alt="Logotype">-->
+<!--</figure>-->
+<!--</section>-->
+<!--<section class="l-header__navigation">-->
+<!--<ul class="c-navigation">-->
+<!--<li class="c-navigation__item">Главная</li>-->
+<!--<li class="c-navigation__item">Портфолио</li>-->
+<!--<li class="c-navigation__item">Блог</li>-->
+<!--<li class="c-navigation__item">Контакты</li>-->
+<!--</ul>-->
+<!--</section>-->
+<!--</header>-->
+<main class="l-body__main l-main">
+    <section class="p-love-story">
+        <div class="p-love-story__inner">
+            <div class="p-love-story__heading">
+                <h1 class="t-heading">Свадьба Jay-z и Beyonce</h1>
+            </div>
+            <div class="p-love-story__body">
+                <h1 class="t-love-story-title t-love-story-title--centered t-love-story-title--bottom">Love story</h1>
+                <div class="c-slider">
+                    <div class="c-slider__content owl-carousel">
+                        <figure class="c-slider__item">
+                            <img src="img/lovestory/love-story1.png" class="c-slider__img">
+                        </figure>
+                        <figure class="c-slider__item">
+                            <img src="img/lovestory/love-story2.png" class="c-slider__img">
+                        </figure>
+                    </div>
+                </div>
+                <h1 class="t-love-story-title t-love-story-title--centered t-love-story-title--bottom">Video</h1>
+                <div class="c-video">
+                    <iframe class="c-video__element" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <div class="c-video__description">
+                        <p class="c-video__paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim sodales erat, nec rutrum mauris pretium lacinia. Nulla cursus rhoncus tellus id accumsan. Praesent a aliquet velit, lacinia elementum sem. Sed cursus in urna eu faucibus. Sed fringilla nec ex eu dapibus. Mauris ultricies, magna at tincidunt ultrices, urna ex elementum nisl, at bibendum metus quam at est. Quisque ultrices est lorem, vel consectetur risus dapibus at. Sed ut molestie sapien, id accumsan ligula.
+                        </p>
+                        <p class="c-video__paragraph">
+                            Aliquam et orci vitae odio tempor tristique. Nam mattis lectus ut justo consequat congue. Aenean posuere nunc et odio porttitor, vel varius ex aliquam. Duis magna ipsum, fringilla ac finibus vitae, maximus in elit. Praesent venenatis pulvinar mattis. Sed pharetra purus neque, viverra finibus sapien malesuada a. Donec tristique mauris ultricies varius scelerisque. In in velit at sapien sodales ornare varius eu est. Nunc tincidunt sapien sed arcu egestas eleifend. In suscipit, felis ut bibendum dapibus, turpis diam pretium diam, eu lobortis lectus lectus ac est.
+                        </p>
+                        <p class="c-video__paragraph">
+                            Suspendisse viverra sit amet tellus quis cursus. In vehicula lobortis nisi, in blandit lorem. Cras commodo, mi a gravida auctor, urna erat tincidunt nulla, vitae interdum libero nulla in dolor. Sed tristique id leo eu rhoncus. Aenean gravida, nibh in congue lobortis, quam lorem posuere mi, aliquam molestie nibh augue tincidunt magna. Integer porttitor consequat augue, vel laoreet arcu congue vel. Donec porta orci nibh. Aenean felis orci, aliquet et odio nec, dapibus volutpat justo. Nullam in ultrices orci. Donec dui leo, convallis a purus ac, sagittis pharetra risus. Nunc eget bibendum lorem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="owlcarousel/dist/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var owl_review = $(".c-slider__content")
+
+        owl_review.owlCarousel({
+            nav: true,
+            loop: true,
+            dots:false,
+            autoplay: true,
+            margin:25,
+            items: 2,
+            responsive : {
+                1440: {
+                    items: 2
+                },
+                800: {
+                    items: 1
+                },
+                0: {
+                    items: 1
+                }
+            },
+            navText: ['<img src="img/arrow-left.svg" alt="" class="c-slider__icon-left-img">', '<img src="img/arrow-right.svg" alt="" class="c-slider__icon-right-img">']
+        });
+    });
+</script>
+</body>
+</html>

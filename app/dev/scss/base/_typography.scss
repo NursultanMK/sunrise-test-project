@@ -35,3 +35,18 @@
   font-size: 7.2rem;
   font-family: GothamPro-Bold, sans-serif;
 }
+
+.t-love-story-title {
+  font-family: GothamPro-Medium, sans-serif;
+  font-size: 3.6rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: orange;
+
+  &--centered {
+    text-align: center;
+  }
+  &--bottom {
+    margin-bottom: 3.4rem;
+  }
+}

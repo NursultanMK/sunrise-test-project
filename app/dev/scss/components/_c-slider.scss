@@ -1,0 +1,54 @@
+.c-slider {
+  padding: 0 7rem;
+  position: relative;
+  margin-bottom: 4.7rem;
+  @media (max-width: 800px) {
+    padding: 0;
+  }
+
+  &__arrow-left {
+    width: 6.9rem;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__arrow-right {
+    width: 6.9rem;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+  }
+  &__item {
+  }
+}
+.disabled {
+  display: block !important;
+
+}
+.owl-nav {
+  width: 114%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex !important;
+  justify-content: space-between;
+
+  & button {
+    display: block !important;
+  }
+}

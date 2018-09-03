@@ -24,6 +24,9 @@
     font-size: 1.8rem;
     font-weight: 200;
     margin-bottom: 2.5rem;
+    @media (max-width: 800px) {
+      font-size: 1.5rem;
+    }
   }
 
   &__second-paragraph {
@@ -31,5 +34,9 @@
     font-family: "Roboto", sans-serif;
     font-size: 1.8rem;
     font-weight: 200;
+    @media (max-width: 800px) {
+      font-size: 1.5rem;
+    }
   }
+
 }
