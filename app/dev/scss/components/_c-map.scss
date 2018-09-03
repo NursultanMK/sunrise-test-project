@@ -2,11 +2,13 @@
   margin-bottom: 42 / 1169 * 100%;
 
   &__figure {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    & img {
+    & iframe {
       width: 100%;
+      height: 38.6rem;
     }
   }
 }

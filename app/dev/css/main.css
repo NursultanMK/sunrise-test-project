@@ -429,11 +429,13 @@ a {
 .c-map {
   margin-bottom: 3.59281%; }
   .c-map__figure {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; }
-    .c-map__figure img {
-      width: 100%; }
+    .c-map__figure iframe {
+      width: 100%;
+      height: 38.6rem; }
 
 .c-menu-bars {
   width: 100%;
@@ -792,5 +794,13 @@ a {
   padding-top: 15.4rem; }
   .p-portfolio__inner {
     padding: 0 13.5rem; }
+    @media (max-width: 1000px) {
+      .p-portfolio__inner {
+        padding-left: 5rem;
+        padding-right: 5rem; } }
+    @media (max-width: 400px) {
+      .p-portfolio__inner {
+        padding-left: 2rem;
+        padding-right: 2rem; } }
   .p-portfolio__heading {
     margin-bottom: 3.6rem; }
