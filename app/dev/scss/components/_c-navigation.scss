@@ -1,6 +1,12 @@
 .c-navigation {
   display: flex;
+  background: $dark-theme;
+
   @media (max-width: 1000px) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
     flex-direction: column;
   }
   &__item {
@@ -8,8 +14,29 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     padding: 0.2rem 1rem;
+
+    @media (max-width: 1000px) {
+      padding: 1rem 7rem;
+      margin-bottom: 1.3rem;
+    }
     &:last-child {
       padding: 0.2rem 0 0.2rem 1rem;
+      @media (max-width: 1000px) {
+        padding: 1rem 7rem;
+      }
     }
   }
+}
+.c-navigation--activate {
+  display: flex;
+}
+.c-navigation__menu-bars {
+  display: none;
+  width: 2rem;
+  @media (max-width: 1000px) {
+   display: block;
+  }
+}
+.c-navigation__menu-icon {
+  width: 100%;
 }

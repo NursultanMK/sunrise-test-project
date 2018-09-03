@@ -8,21 +8,24 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="l-body">
-<!--<header class="l-body__header l-header">-->
-    <!--<div class="l-header__logotype">-->
-        <!--<figure class="c-logo">-->
-            <!--<img class="c-logo__svg" src="img/logotype.svg" alt="Logotype">-->
-        <!--</figure>-->
-    <!--</div>-->
-    <!--<div class="l-header__navigation">-->
-        <!--<ul class="c-navigation">-->
-            <!--<li class="c-navigation__item">Главная</li>-->
-            <!--<li class="c-navigation__item">Портфолио</li>-->
-            <!--<li class="c-navigation__item">Блог</li>-->
-            <!--<li class="c-navigation__item">Контакты</li>-->
-        <!--</ul>-->
-    <!--</div>-->
-<!--</header>-->
+<header class="l-body__header l-header">
+    <section class="l-header__logotype">
+        <figure class="c-logo">
+            <img class="c-logo__svg" src="img/logotype.svg" alt="Logotype">
+        </figure>
+    </section>
+    <section class="l-header__navigation">
+        <ul class="c-navigation">
+            <li class="c-navigation__item"><a href="index.html">Главная</a></li>
+            <li class="c-navigation__item"><a href="portfolio.html">Портфолио</a></li>
+            <li class="c-navigation__item"><a href="blogs.html">Блог</a></li>
+            <li class="c-navigation__item"><a href="contacts.html" class="active-link">Контакты</a></li>
+        </ul>
+    </section>
+    <figure class="c-navigation__menu-bars">
+        <img class="c-navigation__menu-icon" src="img/menu-three-horizontal-lines-symbol.svg" alt="Menu bars">
+    </figure>
+</header>
 <main class="l-body__main l-main">
     <section class="p-contacts">
         <div class="p-contacts__inner">
@@ -94,5 +97,16 @@
         </div>
     </section>
 </main>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $('.c-navigation__menu-bars').click(function () {
+            $('.c-navigation').toggleClass('c-navigation--activate')
+        })
+    });
+</script>
 </body>
 </html>

@@ -4,4 +4,10 @@
   justify-content: space-between;
   position: absolute;
   width: 100%;
+  @media (max-width: 1000px) {
+    padding: 2.5rem 5rem;
+  }
+  @media (max-width: 800px) {
+    padding: 2.5rem;
+  }
 }

@@ -33,6 +33,13 @@ textarea {
   textarea:focus {
     outline: none; }
 
+a {
+  text-decoration: none;
+  color: #e5e5e5; }
+
+.active-link {
+  color: #e2aa1a; }
+
 @font-face {
   font-family: GothamPro;
   src: url(../fonts/GothamPro.ttf); }
@@ -503,17 +510,42 @@ textarea {
     margin-bottom: 3.6170212766%; }
 
 .c-navigation {
-  display: flex; }
+  display: flex;
+  background: #070707; }
   @media (max-width: 1000px) {
     .c-navigation {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
       flex-direction: column; } }
   .c-navigation__item {
     color: #e5e5e5;
     font-size: 1.8rem;
     text-transform: uppercase;
     padding: 0.2rem 1rem; }
+    @media (max-width: 1000px) {
+      .c-navigation__item {
+        padding: 1rem 7rem;
+        margin-bottom: 1.3rem; } }
     .c-navigation__item:last-child {
       padding: 0.2rem 0 0.2rem 1rem; }
+      @media (max-width: 1000px) {
+        .c-navigation__item:last-child {
+          padding: 1rem 7rem; } }
+
+.c-navigation--activate {
+  display: flex; }
+
+.c-navigation__menu-bars {
+  display: none;
+  width: 2rem; }
+  @media (max-width: 1000px) {
+    .c-navigation__menu-bars {
+      display: block; } }
+
+.c-navigation__menu-icon {
+  width: 100%; }
 
 .c-portfolio-list {
   display: flex;
@@ -662,6 +694,12 @@ textarea {
   justify-content: space-between;
   position: absolute;
   width: 100%; }
+  @media (max-width: 1000px) {
+    .l-header {
+      padding: 2.5rem 5rem; } }
+  @media (max-width: 800px) {
+    .l-header {
+      padding: 2.5rem; } }
 
 .p-blog {
   padding-top: 15.4rem;
