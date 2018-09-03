@@ -14,4 +14,4 @@ There is 3 commands for development this project:
   <li><tt>gulp watch</tt>to activate watch compiling scss files to css </li>
   <li><tt>gulp autoprefix</tt> to activate vendor prefixes which helps make styles crossbrowser</li>
 </ul>
-Also this project is made according <strong>1440px</strong> of browser's window.
+Also this project is made according design <strong>1440px</strong> of browser's window.
